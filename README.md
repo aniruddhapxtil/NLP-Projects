@@ -44,13 +44,14 @@ A dual-purpose NLP project that performs **automatic text summarization** and **
 
 ---
 
-## 🖼️ Screenshots
 
-| Summarization | Sentiment Analysis |
-|---------------|--------------------|
-| ![Summary](assets/summarizer.png) | ![Sentiment](assets/sentiment_plot.png) |
-
----
 
 ## 📁 Project Structure
+
+├── summarizer.py # Summarization logic
+├── sentiment_analysis.py # Twitter sentiment analysis logic
+├── preprocess.py # Text cleaning functions
+├── app.py / notebook.ipynb# Combined interface or Jupyter notebook
+├── requirements.txt
+└── README.md
 
